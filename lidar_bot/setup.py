@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'publisher_rpi_node = lidar_bot.publisher:main',
-            'subscriber_rpi_node = lidar_bot.subscriber:main'
+            'subscriber_rpi_node = lidar_bot.subscriber:main',
+            'cmdVel_to_pwm_node = lidar_bot.cmd_to_pwm_driver:main',
         ],
     },
 )

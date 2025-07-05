@@ -1,0 +1,40 @@
+running egg_info
+writing ../build/lidar_bot/lidar_bot.egg-info/PKG-INFO
+writing dependency_links to ../build/lidar_bot/lidar_bot.egg-info/dependency_links.txt
+writing entry points to ../build/lidar_bot/lidar_bot.egg-info/entry_points.txt
+writing requirements to ../build/lidar_bot/lidar_bot.egg-info/requires.txt
+writing top-level names to ../build/lidar_bot/lidar_bot.egg-info/top_level.txt
+reading manifest file '../build/lidar_bot/lidar_bot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/lidar_bot/lidar_bot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lidar_bot/main.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+copying lidar_bot/constants.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+copying lidar_bot/teleop.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+copying lidar_bot/drivebase.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+copying lidar_bot/cmd_to_pwm_driver.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+copying lidar_bot/motor.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+running install
+running install_lib
+copying /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot/main.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+copying /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot/constants.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+copying /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot/teleop.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+copying /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot/drivebase.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+copying /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot/cmd_to_pwm_driver.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+copying /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot/motor.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+byte-compiling /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot/main.py to main.cpython-310.pyc
+byte-compiling /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot/constants.py to constants.cpython-310.pyc
+byte-compiling /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot/teleop.py to teleop.cpython-310.pyc
+byte-compiling /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot/drivebase.py to drivebase.cpython-310.pyc
+byte-compiling /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot/cmd_to_pwm_driver.py to cmd_to_pwm_driver.cpython-310.pyc
+byte-compiling /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot/motor.py to motor.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/lidar_bot/lidar_bot.egg-info to /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cmdVel_to_pwm_node script to /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/lidar_bot
+Installing publisher_rpi_node script to /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/lidar_bot
+Installing subscriber_rpi_node script to /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/lidar_bot
+writing list of installed files to '/home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/install.log'

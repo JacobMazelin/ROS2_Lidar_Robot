@@ -1,0 +1,45 @@
+[3.294s] Invoking command in '/home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/lidar_bot': PYTHONPATH=/home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_bot build --build-base /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build install --record /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/install.log --single-version-externally-managed install_data
+[4.255s] running egg_info
+[4.257s] creating ../build/lidar_bot/lidar_bot.egg-info
+[4.258s] writing ../build/lidar_bot/lidar_bot.egg-info/PKG-INFO
+[4.259s] writing dependency_links to ../build/lidar_bot/lidar_bot.egg-info/dependency_links.txt
+[4.259s] writing entry points to ../build/lidar_bot/lidar_bot.egg-info/entry_points.txt
+[4.260s] writing requirements to ../build/lidar_bot/lidar_bot.egg-info/requires.txt
+[4.261s] writing top-level names to ../build/lidar_bot/lidar_bot.egg-info/top_level.txt
+[4.261s] writing manifest file '../build/lidar_bot/lidar_bot.egg-info/SOURCES.txt'
+[4.268s] reading manifest file '../build/lidar_bot/lidar_bot.egg-info/SOURCES.txt'
+[4.269s] adding license file 'LICENSE'
+[4.272s] writing manifest file '../build/lidar_bot/lidar_bot.egg-info/SOURCES.txt'
+[4.272s] running build
+[4.273s] running build_py
+[4.273s] creating /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build
+[4.274s] creating /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib
+[4.274s] creating /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+[4.275s] copying lidar_bot/publisher.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+[4.275s] copying lidar_bot/subscriber.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+[4.276s] copying lidar_bot/__init__.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+[4.276s] copying lidar_bot/cmd_to_pwm_driver.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot
+[4.278s] running install
+[4.279s] running install_lib
+[4.282s] creating /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+[4.282s] copying /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot/publisher.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+[4.283s] copying /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot/subscriber.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+[4.284s] copying /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot/__init__.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+[4.285s] copying /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build/lib/lidar_bot/cmd_to_pwm_driver.py -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot
+[4.287s] byte-compiling /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot/publisher.py to publisher.cpython-310.pyc
+[4.289s] byte-compiling /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot/subscriber.py to subscriber.cpython-310.pyc
+[4.291s] byte-compiling /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot/__init__.py to __init__.cpython-310.pyc
+[4.292s] byte-compiling /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot/cmd_to_pwm_driver.py to cmd_to_pwm_driver.cpython-310.pyc
+[4.294s] running install_data
+[4.295s] creating /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/share/ament_index
+[4.296s] creating /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/share/ament_index/resource_index
+[4.296s] creating /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/share/ament_index/resource_index/packages
+[4.297s] copying resource/lidar_bot -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/share/ament_index/resource_index/packages
+[4.297s] copying package.xml -> /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/share/lidar_bot
+[4.297s] running install_egg_info
+[4.304s] Copying ../build/lidar_bot/lidar_bot.egg-info to /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages/lidar_bot-0.0.0-py3.10.egg-info
+[4.309s] running install_scripts
+[4.395s] Installing publisher_rpi_node script to /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/lidar_bot
+[4.398s] Installing subscriber_rpi_node script to /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/lidar_bot
+[4.401s] writing list of installed files to '/home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/install.log'
+[4.516s] Invoked command in '/home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/lidar_bot' returned '0': PYTHONPATH=/home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/install/lidar_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_bot build --build-base /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/build install --record /home/jmazelin/ros2_ws/src/ROS2_Lidar_Robot/build/lidar_bot/install.log --single-version-externally-managed install_data
